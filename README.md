@@ -31,6 +31,8 @@ Mounting File dari NAS Server
 		>//IP_NAS_SERVER/Kalimantan/Pomalaa/Stage1/ /home/ubuntu/NAMA_FOLDER cifs credentials=/home/ubuntu/.smbcredentials,dir_mode=0777,file_mode=0777,iocharset=utf8,nobrl 0 0
     - IP_NAS_SERVER = ip alamat server
     - NAMA_FOLDER = nama folder yang telah dibuat pada langkah ke 3
+    - jika nama folder menggunakan spasi tambahkan, contoh: nama folder Stage 1 menjadi /Stage\0401
+    	>\040
 
 5. Test hasil konfigurasi dengan cara
     - > mount -a
